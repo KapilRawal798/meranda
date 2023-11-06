@@ -1,0 +1,424 @@
+@font-face {
+    font-family:canapoee;
+    src: url(canapoee.ttf);
+}
+@font-face {
+    font-family: domain;
+    src: url(domain.ttf);
+}
+@font-face {
+    font-family: editorial;
+    src: url(editorial.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height:100vh;
+  
+   
+}
+#main{
+    background-color: #222;
+    
+}
+#main h3{
+    display: none;
+}
+.page1{
+    
+     height: 150vh;
+     width: 100%;
+     background-color:#d6cec5;
+}
+.nav{
+   display: flex;
+   width: 100%;
+   height: 10vh;
+  
+   align-items: center;
+   justify-content: space-between;
+   border-bottom: 1px solid #222;
+}
+.nav img{
+    width: 15%;
+}
+.nav h2{
+    font-family: 'editorial';
+    font-size: 1rem;
+    padding: 1rem;
+}
+.nav i{
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+/*elem*/
+#elems{
+    margin-top: 20px;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.elem1{
+    padding:2%;
+    width: 30%;
+    height: 100%;
+
+    
+}
+.elem1 #image{
+    height: 50%;
+    border: 1px solid #000;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom:10px ;
+}
+#image img{
+    height: 100%;
+    width: 100%;
+   object-fit:center;
+   transition: all ease 0.5s;
+}
+#image:hover img{
+    scale: 1.2;
+}
+.elem1 h4{
+    font-size: 30px;
+    font-weight: 100;
+    margin-bottom: 5px;
+    font-family: 'canapoee';
+}
+ .elem1  span{
+    background: red;
+    font-family: 'canapoee';
+    font-size: 18px;
+    margin-top: -2px;
+    color: #fff;
+}
+.elem1 p{
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'domain';
+}
+/* elem2 */
+.elem2{
+     text-align: center;
+    width: 30%;
+    height: 100%;
+    padding: 30px 40px;
+    border-left: 1px solid #000;
+    border-right:1px solid #000;
+}
+.elem2 h2{
+    font-family: 'canapoee';
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.elem2 h3{
+    font-family: 'editorial';
+    font-size: 25px;
+    margin-bottom: 100px;
+    font-weight: 500;
+}
+.elem2 h6{
+    font-family: 'domain';
+    margin-bottom: -10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.elem2 h6 .span1{
+    font-weight: 800;
+   font-size:20px;
+}
+
+/* elem3 */
+.elem3{
+    padding:2%;
+    width: 30%;
+    height: 100%;
+    margin-right: 50px;
+   
+}
+.elem3 #image{
+    height: 50%;
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid black;
+}
+.elem3 span{
+    background-color: red;
+    color: #fff;
+}
+.elem3 img{
+    width: 400px;
+    height: 28vh;
+   object-fit: center;
+    margin-bottom: 10px;
+}
+.elem3 h2{
+    font-family: 'canapoee';
+    font-size: 30px;
+    font-weight: 100;
+    margin-top: 10px;
+    margin-bottom:1;
+}
+.elem3 p{
+    font-size: 20px;
+    font-family: 'domain';
+    font-weight: 100;
+}
+/* header */
+h1{
+    font-size: 450px;
+    margin: 20px;
+    font-weight: 100;
+    background:#1C1C19;
+    color: #fff;
+    letter-spacing: -25px;
+    text-align: center;
+    font-family: 'canapoee';
+}
+/* page2 */
+.page2{
+    height: 150vh;
+    width: 100%;
+    background-color:#d6cec5;
+    display: flex;
+    justify-content: space-between;
+}
+#page2-left{
+  width: 30%;
+  height: 100%;
+  margin-left: 2vw;
+  border-right: 1px solid black;
+  
+}
+#page2-left h2{
+    font-family: 'canapoee';
+    font-size: 90px;
+    text-align: center;
+    font-weight: 100;
+
+}
+#page2-left h2 span{
+    font-weight: 800;
+}
+#page2-left img{
+    width: 90%;
+   margin-left: 20px;
+    height: 40vh;
+}
+#page2-left p{
+    font-family: 'domain';
+    font-weight: 100;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 1.4vw;
+}
+#page2-right{
+    width: 65%;
+    height: 80%;
+    margin-left: 10px;
+  }
+#page2-right img{
+    width: 100%;
+    height: 80vh;
+}
+#page2-right h2{
+    border-bottom: 1px solid black;
+    font-family: 'domain';
+    font-weight: 100;
+    font-size: 90px;
+    background-color:none;
+    color: #000;
+}
+/* page3 */
+.page3{
+    height:60vh;
+    width: 100%;
+    background-color: #d6cec5;
+    display: flex;
+    justify-content: space-between;
+}
+.page3 .header{
+     font-size: 300px;
+     text-transform: uppercase;
+     font-family: 'domain';
+     font-weight: 100;
+    height: 50vh;
+   background-color: #222;
+   color:#d6cec5;
+   margin-left: 30px;
+   margin-top: 20px;
+}
+.page3 img{
+    margin-left: 20px;
+   margin-right: 20px;
+    height: 350px;
+    width: 400px;
+}
+.page4{
+    height: 150vh;
+    width: 100%;
+    background-color: #d6cec5;
+    display: flex;
+}
+.page4-left{
+    width: 65%;
+    height: 100%;
+    border-right: 1px solid #000;
+
+}
+.category-page{
+    display: flex;
+}
+.sub-page1{
+    width: 50%;
+    border-right: 1px solid #000;
+}
+.sub-page1 h4{
+ margin-top: 2vw;
+  font-size: 50px;
+  font-family: 'domain';
+  font-weight: 300;
+}
+.sub-page1 h6{
+    margin-top: 1vw;
+    font-size: 50px;
+    font-weight: 100;
+    font-family: 'editorial';
+    line-height: 1;
+    margin-bottom: 10px;
+}
+.sub-page1 span{
+    font-family: 'canapoee';
+    font-size: 20px;
+}
+.sub-page1 p{
+    margin-top: 2vw;
+    font-size: 20px;
+    font-family: "domain";
+    letter-spacing: 0;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+.sub-page2{
+    width: 50%;
+   
+    padding: 0 20px;
+}
+
+.sub-page2 h4{
+    font-size: 40px;
+    font-family: 'domain';
+    font-weight: 100;
+  }
+.sub-page2 p{
+    font-family: 'domain';
+
+}
+.sub-page2 #image{
+ overflow: hidden;
+    height: 150px;
+    width: 90%;
+    margin: 10px;
+}
+.sub-page2 #image img{
+    height: 100%;
+    width: 100%;
+
+}
+/* sub-page3 */
+.sub-page3 img{
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    padding: 10px;    
+}
+.page4-right{
+    width: 30%;
+    height: 100%;
+    padding: 15px;
+   
+}
+.page4-right h3{
+    font-size: 100px;
+   font-family: "domain";
+   font-weight: 300;
+}
+.page4-right p{
+    font-family: "editorial";
+    font-size: 40px;
+    line-height: 1;
+}
+.page5{
+    width: 100%;
+    height: 30vh;
+    background: #d6cec5;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    display: flex;
+   justify-content: space-between;
+}
+.page-sub h5{
+    font-size: 40px;
+    font-family: 'domain';
+}
+.page-sub span{
+    
+    font-family: 'canapoee';
+    font-weight: 800;
+    font-size: 50px;
+}
+.page5 h3{
+    margin-right:80px;
+    font-size: 100px;
+    font-family: 'canapoee';
+}
+.page-sub{
+    width: 100%;
+    height: 100%; 
+}
+
+@media screen and (max-width: 1100px) {
+    #main {
+      background-color: #d6cec5;
+      height: 100vh;
+      width: 100%;
+      position: relative; 
+    }
+    .header-txt{
+      padding-top:50% ;
+      text-align: center;
+    }
+    
+    #main h3{
+        font-family: 'editorial';
+        font-size: 30px;
+        font-weight: 300;
+        display: block;
+        color:#222;
+    }
+   .page1{
+    display: none;
+   }
+   .page2{
+    display: none;
+   }
+   .page3{
+    display: none;
+   }
+   .page4{
+    display: none;
+   }
+   .page5{
+    display: none;
+   }
+
+  }
+  
